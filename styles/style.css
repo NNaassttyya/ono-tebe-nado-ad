@@ -1,1 +1,52 @@
-/* место для вашего кода */
+header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 95px 50px 100px 50px;
+}
+
+.logo img {
+  width: 129.11px;
+  height: 104.65px;
+}
+
+nav ul{
+    list-style: circle;
+    display: flex;
+    gap: 32px; 
+    margin: 0;
+    padding: 0;
+}
+/* Убираем маркер у первого элемента */
+nav ul li:first-child {
+    list-style: none;
+}
+
+.address {
+    justify-self: end;
+    width: 240px;
+    height: 98px;
+
+}
+
+.address a {
+    border-bottom: 1px solid #000;
+    text-decoration: none;
+}
+.cover {
+    position: relative;
+    background-image: url('images/cover.jpg');
+    background-size: cover;
+}
+.cov{
+    padding: 165px 50px 207px 50px;
+}
+/*.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
