@@ -10,7 +10,7 @@ header {
   height: 104.65px;
 }
 
-nav ul{
+.header_nav {
     list-style: circle;
     display: flex;
     gap: 32px; 
@@ -75,7 +75,6 @@ h1 {
     text-align: right;
 }
 
-
 .cover_description-text{
     position: relative;
     padding-bottom: 61px;
@@ -116,13 +115,14 @@ h1 {
     font-size: 40px;;
     text-transform: uppercase;
     padding-left: 40px;
+    padding-bottom: 27px;
 
 }
 
 .lots_card-list {
     list-style: none;
     display: flex;
-    gap: 25px; /* Расстояние между карточками */
+    gap: 25px;
     padding: 0 24px;
 }
 
@@ -201,3 +201,66 @@ h1 {
     font-family: Raleway, sans-serif;
     font-size: 20px;
  }
+
+.about {
+    display: grid;
+    grid-template-columns: 334px 1fr;
+    padding: 180px 50px 150px 50px;
+    align-items: start;
+}
+
+.about > div:first-child {
+    width: 240px;
+    height: 240px;
+    background-color: #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.about_logo-image {
+    width: 148px;
+    height: 114px;
+}
+
+ .about h2 {
+    font-family: Raleway, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 100px 0;
+}
+
+.about_text {
+    font-family: Raleway, sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin: 0 0 30px 0;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: start;
+    padding: 180px 50px 82px 50px;
+}
+.footer_nav {
+    list-style: none;
+    text-align:center;
+}
+
+.footer_social {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 48px;
+    justify-self: end;
+}
+
+.footer_social img {
+    width: 48px; 
+    height: 48px;
+}
