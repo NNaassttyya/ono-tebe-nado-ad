@@ -21,7 +21,6 @@ header {
 nav ul li:first-child {
     list-style: none;
 }
-
 .address {
     justify-self: end;
     width: 240px;
@@ -116,7 +115,6 @@ h1 {
     text-transform: uppercase;
     padding-left: 40px;
     padding-bottom: 27px;
-
 }
 
 .lots_card-list {
