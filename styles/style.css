@@ -13,7 +13,7 @@ header {
 .header_nav {
     list-style: circle;
     display: flex;
-    gap: 32px; 
+    gap: 32px;
     margin: 0;
     padding: 0;
 }
@@ -111,7 +111,7 @@ h1 {
     font-family: Raleway;
     font-weight: 700;
     font-style: Bold;
-    font-size: 40px;;
+    font-size: 40px;
     text-transform: uppercase;
     padding-left: 40px;
     padding-bottom: 27px;
