@@ -2,14 +2,12 @@ header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 95px 50px 198px 50px;
+  padding: 95px 50px 195px 50px;
   height: 104.65px;
 }
 
-
 .content-section {
   width: 100%;
-  margin: 0 auto;
 }
 
 .logo img {
@@ -21,13 +19,12 @@ header {
     list-style: circle;
     display: flex;
     gap: 32px;
-    margin: 0;
-    padding: 0;
 }
 /* Убираем маркер у первого элемента */
 nav ul li:first-child {
     list-style: none;
 }
+
 .address {
     font-style: inherit;
     justify-self: end;
@@ -35,7 +32,6 @@ nav ul li:first-child {
     height: 98px;
 
 }
-
 .address a {
     border-bottom: 1px solid #000;
     text-decoration: none;
@@ -71,13 +67,13 @@ h1 {
   background-color: #000;
 }
 
-.cover__title {
+.cover_title {
   position: relative;
   z-index: 1;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  color: #FFF;
+  color: white;
   font-weight: bold;
   font-size: 100px;
   line-height: 1.15;
@@ -107,7 +103,7 @@ h1 {
   letter-spacing: normal;
 }
 
-.cover__description {
+.cover_description {
   position: relative;
   z-index: 1;
   display: flex;
@@ -117,8 +113,8 @@ h1 {
   padding: 136px 0 0;
 }
 
-.cover__description-text {
-  color: #FFF;
+.cover_description-text {
+  color: white;
   font-size: 22px;
   line-height: 1.27;
   text-transform: uppercase;
@@ -128,14 +124,13 @@ h1 {
 .bet-button {
   border: 1px #FFF solid;
   padding: 14px 32px;
-  color: #FFF;
+  color: white;
   font-family: 'Raleway', sans-serif;
   font-weight: normal;
   font-size: 22px;
   line-height: 1;
   text-transform: uppercase;
   background-color: transparent;
-  cursor: pointer;
 }
 
 
@@ -213,7 +208,6 @@ h1 {
     text-decoration: underline;
     text-underline-offset: 3px;
     line-height: 1.2;
-    margin: 0;
     color: white;
 }
 
@@ -251,7 +245,14 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+}
+
+.about_title {
+  padding: 100px 0 100px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 1;
+  text-transform: uppercase;
 }
 
 .about_logo-image {
@@ -287,8 +288,6 @@ h1 {
 
 .footer_social {
     list-style: none;
-    margin: 0;
-    padding: 0;
     display: flex;
     gap: 48px;
     justify-self: end;
